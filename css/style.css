@@ -1,6 +1,7 @@
 * {
 margin : 0;
 padding: 0;
+box-sizing: border-box;
 }
 
 a:link {
@@ -63,6 +64,55 @@ font-size: 1rem;
 
 /* HEADER */
 /* FIRST COMMIT */
+
+/* MAIN TITLE */
+
+.title-container {
+display: flex;
+justify-content: space-between;
+padding: 20px 100px;
+background-color: #1F2937 ;
+gap: 20px;
+width: 100%;
+}
+
+
+.title-text h1 {
+color: aliceblue;
+font-size: 4rem;
+line-height: 3rem
+
+}
+
+.title-text h2 {
+color: gray;
+font-size: 1rem;
+padding-bottom: 5px;
+}
+
+.title-sign-up {
+background-color: #3464eb;
+padding: 5px 20px;
+border: none;
+border-radius: 5px;
+}
+
+.title-image {
+flex-shrink: 0;
+}
+
+
+.title-image img{
+height: 300px;
+width: auto;
+}
+
+
+
+
+
+
+
 
 
 
