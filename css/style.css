@@ -69,7 +69,6 @@ font-size: 1rem;
 
 .title-container {
 display: flex;
-flex-wrap: nowrap;
 justify-content: space-between;
 padding: 50px 100px;
 background-color: #1F2937 ;
@@ -80,14 +79,14 @@ width: 100%;
 
 .title-text h1 {
 color: aliceblue;
-font-size: 5rem;
-line-height: 4rem
+font-size: 4rem;
+line-height: 3rem
 
 }
 
 .title-text h2 {
 color: gray;
-font-size: 2rem;
+font-size: 1rem;
 padding-bottom: 5px;
 }
 
